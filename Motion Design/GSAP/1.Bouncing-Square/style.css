@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f5f5;
+}
+
+.demo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 250px;
+  height: 250px;
+  background: linear-gradient(135deg, #1dd1a1, #54a0ff);
+  border-radius: 40px;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+  opacity: 0;
+  transform: scale(0.8);
+}

@@ -21,6 +21,20 @@ window.addEventListener('scroll', () => {
   }
 });
 
+button.addEventListener('mouseenter', () => {
+  gsap.to(button, {
+    scale: 1.1,
+    duration: 0.2
+  })
+});
+
+button.addEventListener('mouseleave', () => {
+  gsap.to(button, {
+    scale: 1,
+    duration: 0.2
+  })
+});
+
 button.addEventListener('click', () => {
-  window.scrollTo({ top: 0, behavior: 'smooth' });
+  window.scrollTo(0, 0)
 });

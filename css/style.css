@@ -1,0 +1,26 @@
+body{
+  background-color: black;
+  color:white;
+}
+
+.parent{
+  /* border:1px solid red; */
+  /* width: 80vw; */
+  /* height: 350px; */
+  display:flex;
+  /* flex-direction: column; */
+  gap:10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.child {
+  border: 2px solid blue;
+  width: 2vw;
+  /* height:100px; */
+}
+
+.child-2 {
+  flex: 1;
+  align-self: end;
+}
